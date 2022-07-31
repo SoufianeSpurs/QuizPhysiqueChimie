@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PC LEVEL 0</title>
+<link rel="stylesheet" href="test0.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src = "test0.js"></script>
+<link rel="shortcut icon" href="/pc.png" type="image/x-icon">
+</head>   
+
+<body>
+    <h1>Test en Physique-Chimie : Niveau 0 </h1>
+    <h3>Prenez votre temps avant de repondre aux questions suivantes</h3>
+    <h2>Partie 1 : Chimie</h2>
+    <h4>Question 1 - Un acide au sens de Bronsted :</h4>
+    <input type="checkbox" id="choix1" name="choice" value="ceder1">
+    <label for="choix1">cede un et uniquement un proton H+</label><br>
+    <input type="checkbox" id="choix2" name="choice" value="capter" >
+    <label for="choix2">capte un ou plusieurs protons H+</label><br>
+    <input type="checkbox" id="choix3" name="choice" value="ceder+" >
+    <label for="choix3">cede un ou plusieurs protons H+</label><br>
+    <div id="qst1"></div>
+    <h4>Question 2 - En se basant sur le graphe suivant, donner le temps de demi‐réaction t1/2 correspondant :</h4>
+    <div id="demi">
+    <img src="demi-tps de reaction.png" id="demi-tps">
+    </div>
+    <input type="checkbox" id="choix4" name="choice" value="8 mn">
+    <label for="choix1">8 min</label><br>
+    <input type="checkbox" id="choix5" name="choice" value="4 mn">
+    <label for="choix2">4 min</label><br>
+    <input type="checkbox" id="choix6" name="choice" value="6 mn">
+    <label for="choix3">6 min</label><br>
+    <div id="qst2"></div>
+    <h4>Question 3 - Quel est le nom de l'ester suivant ?</h4>
+    <div id="ester">
+    <img src="propanoate de propyle.png" id="esterf">
+    </div>
+    <input type="checkbox" id="choix7" name="choice" value="but-met">
+    <label for="choix1">Butanoate de methyle</label><br>
+    <input type="checkbox" id="choix8" name="choice" value="pro-pro">
+    <label for="choix2">Propanoate de propyle</label><br>
+    <input type="checkbox" id="choix9" name="choice" value="!ester">
+    <label for="choix3">Il ne s'agit meme pas d'un ester :) </label><br>
+    <div id="qst3"></div>
+    <h4>Question 4 - D'un point de vue chimique, la quantite d'electricite Q fournie par une pile quelconque pendant une duree determinee , est exprimee par :</h4>
+    <input type="checkbox" id="choix10" name="choice" value="nF">
+    <label for="choix1">Q=n(e-).F</label><br>
+    <input type="checkbox" id="choix11" name="choice" value="F/n">
+    <label for="choix2">Q=F/n(e-)</label><br>
+    <input type="checkbox" id="choix12" name="choice" value="n/F">
+    <label for="choix3">Q=n(e-)/F</label><br>
+    <h5>A titre de rappel : n(e-) est la quantite de matiere echangee durant le fonctionnement de la pile pendant une duree determinee, et F est la valeur absolue de la charge d'une mole d'electrons </h5>
+    <div id="qst4"></div>
+    <h4>Question 5 - La reaction de dosage d'une espece chimique quelconque est :</h4>
+    <input type="checkbox" id="choix13" name="choice" value="lim">
+    <label for="choix1">toujours limitee</label><br>
+    <input type="checkbox" id="choix14" name="choice" value="tot">
+    <label for="choix2">toujours totale</label><br>
+    <input type="checkbox" id="choix15" name="choice" value="dep">
+    <label for="choix3">cela depend de la situation</label><br>
+    <div id="qst5"></div>
+    <h4>Question 6 - On realise un dosage pH-metrique d'une solution basique d'ammoniac NH3 par une solution aqueuse d'acide chlorydrique (H3O+ + Cl-).
+        On obtient a l'equivalence le pH egale a 6,0. L'indicateur colore adequat pour realiser ce dosage est :
+    </h4>
+    <input type="checkbox" id="choix16" name="choice" value="hel">
+    <label for="choix1">Helianthine (3,1 - 4,4)</label><br>
+    <input type="checkbox" id="choix17" name="choice" value="phe">
+    <label for="choix2">Phenolphtaleine (8,2 - 10)</label><br>
+    <input type="checkbox" id="choix18" name="choice" value="rdm">
+    <label for="choix3">Rouge de methyle (4,2 - 6,2)</label><br>
+    <div id="qst6"></div>
+    <h2>Partie 2 : Ondes</h2>
+    <h4>Question 7 - La perturbation a un point M Ym a l'instant t est egale a la perturbation qui existait auparavant a la source S Ys quand :</h4>
+    <input type="checkbox" id="choix19" name="choice" value="mt">
+    <label for="choix1">Ym(t) = Ys(t-τ)</label><br>
+    <input type="checkbox" id="choix20" name="choice" value="t">
+    <label for="choix2">Ym(t) = Ys(t)</label><br>
+    <input type="checkbox" id="choix21" name="choice" value="pt">
+    <label for="choix3">Ym(t) = Ys(t+τ)</label><br>
+    <h5>A titre de rappel : τ = SM/V est le retard temporel, tel que SM la distance entre S et M, et V la vitesse de propagation. </h5>
+    <div id="qst7"></div>
+    <h4>Question 8 - L'expression de l'angle de diffraction θ en fonction de la longueur d'onde λ et la largeur de fente a est :</h4>
+    <input type="checkbox" id="choix22" name="choice" value="λa">
+    <label for="choix1">θ=λ.a</label><br>
+    <input type="checkbox" id="choix23" name="choice" value="a/λ">
+    <label for="choix2">θ=a/λ</label><br>
+    <input type="checkbox" id="choix24" name="choice" value="λ/a">
+    <label for="choix3">θ=λ/a</label><br>
+    <div id="qst8"></div>
+    <h4>Question 9 - La courbe ci-dessous represente une coupe verticale de la surface de l'eau a l'instant t.
+        La regle graduee sur le schema represente l'echelle utilisee.
+        La longueur d'onde est :
+    </h4>
+    <div id="long">
+    <img src="longueur d'onde.png" id="longon">
+    </div>
+    <input type="checkbox" id="choix25" name="choice" value="5cm">
+    <label for="choix1">5 cm</label><br>
+    <input type="checkbox" id="choix26" name="choice" value="6cm">
+    <label for="choix2">6 cm</label><br>
+    <input type="checkbox" id="choix27" name="choice" value="4cm">
+    <label for="choix3">4 cm</label><br>
+    <div id="qst9"></div>
+    <h2>Partie 3 : Nucleaire</h2>
+    <h4>Question 10 - Le tableau ci-dessous represente l'energie de liaison par nucleon de certains noyaux.
+        le noyau le plus stable parmi les noyaux presentes dans le tableau est :
+    </h4>
+    <div id="stab">
+    <img src="stabilite.png" id="stabl">
+    </div>
+    <input type="checkbox" id="choix28" name="choice" value="Joe">
+    <label for="choix1">Radon</label><br>
+    <input type="checkbox" id="choix29" name="choice" value="Pol">
+    <label for="choix2">Polonium</label><br>
+    <input type="checkbox" id="choix30" name="choice" value="Hel">
+    <label for="choix3">Helium</label><br>
+    <div id="qst10"></div>
+    <h4>Question 11 - La relation entre la demi-vie t1/2 d'un echantillon radioactif et la constante radioactive λ est :</h4>
+    <input type="checkbox" id="choix31" name="choice" value="l/λ">
+    <label for="choix1">t1/2=ln(2)/λ</label><br>
+    <input type="checkbox" id="choix32" name="choice" value="l.λ">
+    <label for="choix2">t1/2=ln(2).λ</label><br>
+    <input type="checkbox" id="choix33" name="choice" value="λ/l">
+    <label for="choix3">t1/2=λ/ln(2)</label><br>
+    <div id="qst11"></div>
+    <h4>Question 12 - Cette radioactivite correspond a l'emission d'un positron. Il s'agit d'une radioactivite : </h4>
+    <input type="checkbox" id="choix34" name="choice" value="β-">
+    <label for="choix1">β-</label><br>
+    <input type="checkbox" id="choix35" name="choice" value="β+">
+    <label for="choix2">β+</label><br>
+    <input type="checkbox" id="choix36" name="choice" value="α">
+    <label for="choix3">α</label><br>
+    <div id="qst12"></div>
+    <h4></h4>
+    <button onclick="Executions();">Finir le quiz et envoyer</button>
+    <div id="score"></div>
+</body>
+</html>
